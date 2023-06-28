@@ -1,0 +1,216 @@
+/* Главные цвета: красный и золотой */
+body {
+    font-family: 'Harry P', sans-serif;
+    background-color: #740001;
+    color: #e0a819;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #e0a819;
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    cursor: pointer;
+    padding: 12px 24px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2em;
+    background-color: #740001;
+    color: #e0a819;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    transform: translateY(-2px);
+    background-color: #a40000;
+  }
+  
+  #todoInput {
+    padding: 12px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: 2px solid #740001;
+    width: 70%;
+    max-width: 500px;
+    transition: all 0.3s ease;
+  }
+  
+  #todoInput:focus {
+    border-color: #a40000;
+  }
+  
+  section {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  section div {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    color: #333;
+  }
+  
+  section div.done {
+    text-decoration: line-through;
+    background-color: #f7dab5;
+  }
+  
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .todo-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .todo-buttons button {
+    background-color: #740001;
+    color: #e0a819;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+  }
+  
+  .todo-buttons button:hover {
+    transform: translateY(-2px);
+    background-color: #a40000;
+  }
+  
+  @media screen and (max-width: 768px) {
+    #todoInput {
+      width: 100%;
+    }
+  }
+  
+
+
+  /* Главные цвета: зеленый и серебряный */
+body {
+    font-family: 'Harry P', sans-serif;
+    background-color: #1a472a;
+    color: #c0c0c0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #c0c0c0;
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    cursor: pointer;
+    padding: 12px 24px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2em;
+    background-color: #1a472a;
+    color: #c0c0c0;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    transform: translateY(-2px);
+    background-color: #0e361f;
+  }
+  
+  #todoInput {
+    padding: 12px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: 2px solid #1a472a;
+    width: 70%;
+    max-width: 500px;
+    transition: all 0.3s ease;
+  }
+  
+  #todoInput:focus {
+    border-color: #0e361f;
+  }
+  
+  section {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  section div {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    color: #333;
+  }
+  
+  section div.done {
+    text-decoration: line-through;
+    background-color: #b7b7b7;
+  }
+  
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .todo-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .todo-buttons button {
+    background-color: #1a472a;
+    color: #c0c0c0;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+  }
+  
+  .todo-buttons button:hover {
+    transform: translateY(-2px);
+    background-color: #0e361f;
+  }
+  
+  @media screen and (max-width: 768px) {
+    #todoInput {
+      width: 100%;
+    }
+  }
+  
